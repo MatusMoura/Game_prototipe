@@ -1,22 +1,21 @@
 public class GamejVelha {
-    
+
     private char xOrO;
 
-    public GamejVelha(){
+    public GamejVelha() {
         this.xOrO = ' ';
     }
 
     public char getXOrO() {
-		return xOrO;
-	}
+        return this.xOrO;
+    }
 
-	public void setXOrO(char xOrO) {
-		if(this.xOrO == ' '){
+    public void setXOrO(char xOrO) {
+        if (this.xOrO == ' ') {
             this.xOrO = xOrO;
-        }else{
+        } else {
             System.out.print("Campo já usado");
         }
-	}
+    }
 
-	
 }
